@@ -1522,6 +1522,8 @@ PODS:
     - React-logger (= 0.75.2)
     - React-perflogger (= 0.75.2)
     - React-utils (= 0.75.2)
+  - RNCPicker (2.8.1):
+    - React-Core
   - RNGestureHandler (2.20.0):
     - DoubleConversion
     - glog
@@ -1656,6 +1658,7 @@ DEPENDENCIES:
   - React-utils (from `../node_modules/react-native/ReactCommon/react/utils`)
   - ReactCodegen (from `build/generated/ios`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
+  - "RNCPicker (from `../node_modules/@react-native-picker/picker`)"
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - RNScreens (from `../node_modules/react-native-screens`)
   - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
@@ -1795,6 +1798,8 @@ EXTERNAL SOURCES:
     :path: build/generated/ios
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
+  RNCPicker:
+    :path: "../node_modules/@react-native-picker/picker"
   RNGestureHandler:
     :path: "../node_modules/react-native-gesture-handler"
   RNScreens:
@@ -1869,6 +1874,7 @@ SPEC CHECKSUMS:
   React-utils: 81a715d9c0a2a49047e77a86f3a2247408540deb
   ReactCodegen: 60973d382704c793c605b9be0fc7f31cb279442f
   ReactCommon: 6ef348087d250257c44c0204461c03f036650e9b
+  RNCPicker: 0b6860a6b208d4046227d2f626ad0722f99a969c
   RNGestureHandler: 6dfe7692a191ee224748964127114edf057a1475
   RNScreens: 19719a9c326e925498ac3b2d35c4e50fe87afc06
   RNVectorIcons: 6382277afab3c54658e9d555ee0faa7a37827136

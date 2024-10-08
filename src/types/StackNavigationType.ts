@@ -8,7 +8,7 @@ type StackParamType<T> = {
 export interface HomeStackParamList extends ParamListBase {
   Feed: undefined;
   MarketInfo: undefined;
-  MyPage: undefined;
+  MenuManage: undefined;
 }
 
 export interface RegisterStackParamList extends ParamListBase {
