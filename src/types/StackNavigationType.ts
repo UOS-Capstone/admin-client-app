@@ -9,6 +9,7 @@ export interface HomeStackParamList extends ParamListBase {
   Feed: undefined;
   MarketInfo: undefined;
   MyPage: undefined;
+  OrderHistory: undefined;
 }
 
 export interface RegisterStackParamList extends ParamListBase {
