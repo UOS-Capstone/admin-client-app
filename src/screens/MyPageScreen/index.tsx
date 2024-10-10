@@ -2,7 +2,7 @@ import {RootStackParamList} from '@/types/StackNavigationType';
 import {useNavigation} from '@react-navigation/native';
 import {StackNavigationProp} from '@react-navigation/stack';
 import React, {useState} from 'react';
-import {View} from 'react-native';
+import {View, TouchableOpacity, Text} from 'react-native';
 import {Modal, Portal} from 'react-native-paper';
 import Icon from 'react-native-vector-icons/AntDesign';
 
@@ -64,6 +64,12 @@ const MyPageScreen = () => {
           </Modal>
         </Portal>
       )}
+      <View>
+        <TouchableOpacity
+          onPress={() => navigation.navigate('Register', {screen: 'Login'})}>
+          <Text>로그인하기</Text>
+        </TouchableOpacity>
+      </View>
     </View>
   );
 };

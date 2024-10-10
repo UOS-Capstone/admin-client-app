@@ -3,6 +3,7 @@ import {createStackNavigator} from '@react-navigation/stack';
 import React from 'react';
 import HomeNavigator from './HomeNavigator';
 import ResgitrationMarketNavigator from './RegisterMarketNavigator';
+import RegistrationNavigaitor from './RegisterNavigator';
 
 // Create a stack navigator
 const Stack = createStackNavigator<RootStackParamList>();
@@ -17,7 +18,7 @@ const AppNavigator = () => {
         name="RegisterMarketHome"
         component={ResgitrationMarketNavigator}
       />
-
+      <Stack.Screen name="Register" component={RegistrationNavigaitor} />
       {/* Add more screens here */}
     </Stack.Navigator>
   );
